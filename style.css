@@ -1,0 +1,66 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(0,0%,95%);
+    font-size: 15px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;   
+}
+
+h3 {
+    font-weight: 700;
+}
+
+p style {
+    font-weight: 400;
+    text-align: justify;
+    color: hsl(0,0%,95%);
+}
+
+.top3 {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    
+}
+    
+
+.se{
+    background-color: hsl(31, 77%, 52%);
+    padding: 50px;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+  
+}
+
+.su {
+    background-color: hsl(184, 100%, 22%);
+    padding: 50px;
+}
+
+.lu {
+    background-color: hsl(179, 100%, 13%);
+    padding: 50px;
+}
+
+input[type=submit] {
+    width: 100%;
+    color: rgb(238, 147, 28);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: 1px solid grey;
+    border-radius: 6px;
+    cursor: pointer; 
+    font-weight: 400;
+}
